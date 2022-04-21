@@ -49,7 +49,7 @@ $ git clone <github-repo> <local directory>
     ```
     -  원격 저장소의 브랜치 확인
         ``` linux
-        $ git branch -ㄱ
+        $ git branch -r
         ```
 
     - 브랜치의 마지막 커밋 메세지 확인
