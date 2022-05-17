@@ -12,3 +12,15 @@
 |2바이트|short|char|-|-|
 |4바이트|int|-|float|-|
 |8바이트|long|-|double|-|
+
+### 배열
+- `자료형[] 변수 = new 자료형[배열의 크기]`의 형태로 선언
+-  배열의 크기
+    - 0 ~ (배열의 크기 -1) (0부터 시작하기 때문에)
+```java
+    String sparta = "sparta !!";
+    System.out.println(sparta);
+
+    int[] intArray = new int[] {1,2,3,4,5}; // int 배열을 선언과 동시에 초기화
+    System.out.println(Arrays.toString(intArray));
+```
